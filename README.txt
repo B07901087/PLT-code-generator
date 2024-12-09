@@ -40,7 +40,7 @@ move the huangemmplt_stratus into the ESP folder: "esp/accelerators/stratus_hls/
 execute "make huangemmplt_stratus-exe" to perform behavioral simulation
 
 if you want to execute all commands:
-you can execute "bash run_all.sh", which execute the steps from one to three.
+you can execute "bash run_all.sh", which execute the steps 1~3.
 For the fourth step, please see the video demo to save your time.
 
 ****** note that "make code-gen" will raise an error as we have semantic errors in the fifth program. The behavior is expected *****
