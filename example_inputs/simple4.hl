@@ -1,0 +1,7 @@
+// constant propagation and dead code elimination
+i = 2
+while i != 3 {
+    k = 1
+    i = i + k
+    register_op FC (in: 4, out: 6)
+} 

@@ -1,0 +1,6 @@
+// i not defined error
+while i != 3 {
+    k = 1
+    i = k
+    i = i + 1
+} 
