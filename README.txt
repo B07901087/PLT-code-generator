@@ -48,11 +48,11 @@ For the fourth step, please see the video demo to save time.
 
 
 === Different input files and what is their purpose of testing ===
-1. input1.hl: test the registration command, this is the simplest program
-2. input2.hl: show the programmability of language (if-else structure, and the generated hardware code is correct)
-3. input3.hl: Another programmability of language (while structure, generates 2 sets of hardware code)
-4. input4.hl: constant propagation and dead code elimination
-5. input5.hl: uninitialized variable, which will cause an error
+1. example_inputs/simple1.hl: test the registration command, this is the simplest program
+2. example_inputs/simple2.hl: show the programmability of language (if-else structure, and the generated hardware code is correct)
+3. example_inputs/simple3.hl: Another programmability of language (while structure, generates 2 sets of hardware code)
+4. example_inputs/simple4.hl: constant propagation and dead code elimination
+5. example_inputs/simple5.hl: uninitialized variable, which will cause an error
 
 
 
