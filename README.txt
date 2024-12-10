@@ -2,9 +2,9 @@ Team: (Name, UNI)
 Pei-Huan Tsai, pt2630
 
 Requirement:
-C++11    --> for scanner
-Python3  --> for parser and code generator
-ESP (https://www.esp.cs.columbia.edu/) --> SoC/accelerator synthesis and integration after code generation.
+1. C++11    --> for scanner
+2. Python3  --> for parser and code generator
+3. ESP (https://www.esp.cs.columbia.edu/) --> SoC/accelerator synthesis and integration after code generation.
     (a) The code generator generates code for accelerator designs that can be integrated into an SoC using ESP, an open-source SoC platform.
     (b) ESP installation (https://www.esp.cs.columbia.edu/docs/setup/setup-guide/)
 
