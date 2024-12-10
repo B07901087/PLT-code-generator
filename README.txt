@@ -18,15 +18,15 @@ https://youtu.be/yvfQ0kh4hak
 
 Work flow: 
 1. The compiler framework generates Python programs.
-2. We execute the generated Python program to modify the template (code_template/) and get some accelerator code.
-3. We copy the code into corresponding places in the accelerator template.
+2. We execute the generated Python programs to modify the template (code_template/) and get some accelerator code.
+3. We copy the code into corresponding places in the accelerator template (huangemmplt_stratus/).
 4. We can further copy the accelerator template into ESP folder for SoC generation (In theory, we could proceed to bitstream generation and run the applications mentioned in the proposal on FPGAs. However, to save time, the demo focuses on demonstrating the behavioral simulation results to showcase the feasibility of the workflow.)
 
 
 
 
 
-How to compile and run the program: (corresponds to the work flow mention above)
+How to compile and run the program: (The following commands correspond to the work flow mention above)
 1. 
 ==== generate ast ====
 make clean;make ast-files, or 
@@ -39,7 +39,8 @@ make code-exec
 
 3. 
 make install, or 
-manually copy the code you want
+manually copy the code you want (make install-2, make install-3-0, make install-3-1, make install-4 are also provided)
+
 
 4. 
 move the huangemmplt_stratus into the ESP folder: "esp/accelerators/stratus_hls/.", where esp is the folder of your esp installation
