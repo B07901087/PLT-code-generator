@@ -13,7 +13,7 @@ Since ESP installation will take a lot of time, please just take a look at the v
 Video demo:
 https://youtu.be/17vUWnBCNHs
 
-Video demo2: (This one just show other code execution, you can just see the first demo as it's more important)
+Video demo2: (In this part, I just show other code executions, the first demo is more important)
 https://youtu.be/Kb9_xE1tdis
 
 Work flow: 
