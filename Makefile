@@ -73,6 +73,26 @@ install:
 	cp generated_code/test1/FC_0/init_data.hpp huangemmplt_stratus/hw/tb/.
 	cp generated_code/test1/FC_0/memlist.txt huangemmplt_stratus/hw/.
 
+install-2:
+	cp generated_code/test2/FC_0/huangemmplt.hpp huangemmplt_stratus/hw/src/.
+	cp generated_code/test2/FC_0/init_data.hpp huangemmplt_stratus/hw/tb/.
+	cp generated_code/test2/FC_0/memlist.txt huangemmplt_stratus/hw/.
+
+install-3-0:
+	cp generated_code/test3/FC_0/huangemmplt.hpp huangemmplt_stratus/hw/src/.
+	cp generated_code/test3/FC_0/init_data.hpp huangemmplt_stratus/hw/tb/.
+	cp generated_code/test3/FC_0/memlist.txt huangemmplt_stratus/hw/.
+
+install-3-1:
+	cp generated_code/test3/FC_1/huangemmplt.hpp huangemmplt_stratus/hw/src/.
+	cp generated_code/test3/FC_1/init_data.hpp huangemmplt_stratus/hw/tb/.
+	cp generated_code/test3/FC_1/memlist.txt huangemmplt_stratus/hw/.
+
+install-4:
+	cp generated_code/test4/FC_0/huangemmplt.hpp huangemmplt_stratus/hw/src/.
+	cp generated_code/test4/FC_0/init_data.hpp huangemmplt_stratus/hw/tb/.
+	cp generated_code/test4/FC_0/memlist.txt huangemmplt_stratus/hw/.
+
 demo-opt:
 	python3 code_generator_parsing_input.py ast_outputs/output4.txt -o generated_code/test4/not_optimized_generator.py
 
