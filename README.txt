@@ -13,6 +13,9 @@ Since ESP installation will take a lot of time, please just take a look at the v
 Video demo:
 https://youtu.be/17vUWnBCNHs
 
+Video demo2: (This one just show other code execution, you can just see the first demo as it's more important)
+https://youtu.be/Kb9_xE1tdis
+
 Work flow: 
 1. The compiler framework generates Python programs.
 2. We execute the generated Python program to modify the template (code_template/) and get some accelerator code.
